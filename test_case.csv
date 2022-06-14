@@ -1,0 +1,7 @@
+Test-case-id,Test-case,event,event_pass,expected_state
+TEST_lED_STATE-1,StateMachineTest, StateMachine_RunIteration,EV_BUTTON_PUSHED,ST_LED_ON 
+TEST_lED_STATE-2,StateMachineTest, StateMachine_RunIteration,EV_BUTTON_PUSHED,ST_IDLE 
+TEST_lED_STATE-3,StateMachineTest,StateMachineTest,EV_TIME_OUT,ST_IDLE 
+TEST_lED_STATE-4,StateMachineTest,StateMachineTest,EV_BUTTON_PUSHED,ST_IDLE 
+TEST_lED_STATE-5,StateMachineTest,StateMachineTest,EV_TIME_OUT,ST_LED_OFF
+TEST_lED_STATE-6,StateMachineTest,StateMachineTest,EV_TIME_OUT,ST_LED_OFF
